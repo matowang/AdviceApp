@@ -19,7 +19,6 @@ const handler = async (req, res) => {
 }
 
 const getAdvice = async (req, res) => {
-    console.log('ttest');
     try {
         const completion = await openai.createCompletion({
             model: "text-davinci-002",
